@@ -36,9 +36,6 @@ public class MarkdownParse {
             }
             currentIndex = closeParen + 1;   
         }
-        if (toReturn.size() == 0) {
-            toReturn.add("no links found");
-        }
         return toReturn;
     }
 
